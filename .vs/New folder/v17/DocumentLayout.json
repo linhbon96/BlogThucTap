@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ThucTap\\New folder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ThucTap\\New folder\\BlogManagementApp\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogManagementApp\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ThucTap\\New folder\\BlogManagementApp\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogManagementApp\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ThucTap\\New folder\\BlogManagementApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogManagementApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ThucTap\\New folder\\BlogManagementApp\\Controllers\\PostController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogManagementApp\\Controllers\\PostController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ThucTap\\New folder\\BlogManagementApp\\DTOs\\PostDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogManagementApp\\DTOs\\PostDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ThucTap\\New folder\\BlogManagementApp\\Models\\Image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogManagementApp\\Models\\Image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ThucTap\\New folder\\BlogManagementApp\\Models\\Post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogManagementApp\\Models\\Post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ThucTap\\New folder\\BlogManagementApp\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogManagementApp\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ThucTap\\New folder\\BlogManagementApp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogManagementApp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ThucTap\\New folder\\BlogManagementApp\\BlogManagementApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlogManagementApp\\BlogManagementApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ThucTap\\New folder\\BlogManagementApp\\Program.cs",
+              "RelativeDocumentMoniker": "BlogManagementApp\\Program.cs",
+              "ToolTip": "D:\\ThucTap\\New folder\\BlogManagementApp\\Program.cs",
+              "RelativeToolTip": "BlogManagementApp\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T09:43:49.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\ThucTap\\New folder\\BlogManagementApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BlogManagementApp\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\ThucTap\\New folder\\BlogManagementApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BlogManagementApp\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T02:52:00.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "D:\\ThucTap\\New folder\\BlogManagementApp\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "BlogManagementApp\\Controllers\\PostController.cs",
+              "ToolTip": "D:\\ThucTap\\New folder\\BlogManagementApp\\Controllers\\PostController.cs",
+              "RelativeToolTip": "BlogManagementApp\\Controllers\\PostController.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAswKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T01:48:59.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\ThucTap\\New folder\\BlogManagementApp\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "BlogManagementApp\\Models\\Post.cs",
+              "ToolTip": "D:\\ThucTap\\New folder\\BlogManagementApp\\Models\\Post.cs",
+              "RelativeToolTip": "BlogManagementApp\\Models\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T01:26:20.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Image.cs",
+              "DocumentMoniker": "D:\\ThucTap\\New folder\\BlogManagementApp\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "BlogManagementApp\\Models\\Image.cs",
+              "ToolTip": "D:\\ThucTap\\New folder\\BlogManagementApp\\Models\\Image.cs",
+              "RelativeToolTip": "BlogManagementApp\\Models\\Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T01:26:19.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ThucTap\\New folder\\BlogManagementApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BlogManagementApp\\Models\\User.cs",
+              "ToolTip": "D:\\ThucTap\\New folder\\BlogManagementApp\\Models\\User.cs",
+              "RelativeToolTip": "BlogManagementApp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T01:26:15.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ThucTap\\New folder\\BlogManagementApp\\appsettings.json",
+              "RelativeDocumentMoniker": "BlogManagementApp\\appsettings.json",
+              "ToolTip": "D:\\ThucTap\\New folder\\BlogManagementApp\\appsettings.json",
+              "RelativeToolTip": "BlogManagementApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-28T01:25:35.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\ThucTap\\New folder\\BlogManagementApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BlogManagementApp\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\ThucTap\\New folder\\BlogManagementApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BlogManagementApp\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T01:18:22.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostDTO.cs",
+              "DocumentMoniker": "D:\\ThucTap\\New folder\\BlogManagementApp\\DTOs\\PostDTO.cs",
+              "RelativeDocumentMoniker": "BlogManagementApp\\DTOs\\PostDTO.cs",
+              "ToolTip": "D:\\ThucTap\\New folder\\BlogManagementApp\\DTOs\\PostDTO.cs",
+              "RelativeToolTip": "BlogManagementApp\\DTOs\\PostDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T02:01:21.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BlogManagementApp.csproj",
+              "DocumentMoniker": "D:\\ThucTap\\New folder\\BlogManagementApp\\BlogManagementApp.csproj",
+              "RelativeDocumentMoniker": "BlogManagementApp\\BlogManagementApp.csproj",
+              "ToolTip": "D:\\ThucTap\\New folder\\BlogManagementApp\\BlogManagementApp.csproj",
+              "RelativeToolTip": "BlogManagementApp\\BlogManagementApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-28T01:24:29.76Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1727,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

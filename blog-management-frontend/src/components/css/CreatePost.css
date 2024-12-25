@@ -1,0 +1,37 @@
+.create-post-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.create-post-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.create-post-form input[type="text"],
+.create-post-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.create-post-form .content-textarea {
+  width: 569px; /* custom width */
+  height: 402px; /* custom height */
+  resize: none; /* prevent resizing */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+  
+.success-message {
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+}

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\blog-management-frontend",
+    "\\blog-management-frontend\\public",
+    "\\blog-management-frontend\\src",
+    "\\blog-management-frontend\\src\\components",
+    "\\BlogManagementApp",
+    "\\BlogManagementApp\\Data",
+    "\\BlogManagementApp\\DTOs",
+    "\\BlogManagementApp\\Migrations",
+    "\\BlogManagementApp\\Models"
+  ],
+  "SelectedNode": "\\BlogManagementApp\\Controllers\\UserController.cs",
+  "PreviewInSolutionExplorer": false
+}
