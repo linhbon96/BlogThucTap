@@ -3,34 +3,29 @@ import { useNavigate } from 'react-router-dom';
 import './css/PostEditList.css';
 import Modal from './Modal/Modal'; // Import modal component
 
-
 function PostEditList() {
   const [posts, setPosts] = useState([]);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(1);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [postToDelete, setPostToDelete] = useState(null);
   const navigate = useNavigate();
-  const postsPerPage = 6;
 
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await fetch(`http://localhost:5024/api/Post?page=${currentPage}&pageSize=${postsPerPage}`);
+        const response = await fetch("http://localhost:5024/api/Post");
         if (!response.ok) {
           throw new Error("Network response was not ok " + response.statusText);
         }
         const data = await response.json();
         console.log("Data received from API:", data);
-        setPosts(data.posts);
-        setTotalPages(data.totalPages);
+        setPosts(data);
       } catch (error) {
         console.error("Lỗi khi lấy dữ liệu:", error);
       }
     };
 
     fetchPosts();
-  }, [currentPage]);
+  }, []);
 
   const handleEditClick = (postId) => {
     navigate(`/EditPost/${postId}`);
@@ -60,8 +55,11 @@ function PostEditList() {
     setIsModalOpen(false); // Đóng modal sau khi xác nhận
   };
 
-  const handlePageChange = (page) => {
-    setCurrentPage(page);
+  // Hàm để loại bỏ HTML
+  const removeHTML = (content) => {
+    const tempElement = document.createElement("div");
+    tempElement.innerHTML = content;
+    return tempElement.textContent || tempElement.innerText || "";
   };
 
   return (
@@ -69,24 +67,14 @@ function PostEditList() {
       {posts.map(post => (
         <div key={post.postId} className="post-card">
           <h2>{post.title}</h2>
-          <p>{post.content.slice(0, 100)}...</p>
+          <p>{removeHTML(post.content).slice(0, 50)}...</p>
           <div className="post-header">
             <button onClick={() => handleEditClick(post.postId)}>Chỉnh sửa</button>
             <button className="red" onClick={() => handleDeleteClick(post.postId)}>Xóa</button>
           </div>
         </div>
       ))}
-      <div className="pagination">
-        {Array.from({ length: totalPages }, (_, index) => (
-          <button
-            key={index}
-            onClick={() => handlePageChange(index + 1)}
-            className={currentPage === index + 1 ? 'active' : ''}
-          >
-            {index + 1}
-          </button>
-        ))}
-      </div>
+      
       {/* Hiển thị modal */}
       <Modal 
         isOpen={isModalOpen} 
