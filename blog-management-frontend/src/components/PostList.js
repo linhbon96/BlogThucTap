@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './css/PostList.css';
 
-function PostList() {
+function PostList({ searchQuery }) {
   const [posts, setPosts] = useState([]);
+  const [filteredPosts, setFilteredPosts] = useState([]);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -16,6 +17,7 @@ function PostList() {
         const data = await response.json();
         console.log("Data received from API:", data);
         setPosts(data);
+        setFilteredPosts(data);
       } catch (error) {
         console.error("Lỗi khi lấy dữ liệu:", error);
       }
@@ -23,6 +25,18 @@ function PostList() {
 
     fetchPosts();
   }, []);
+
+  useEffect(() => {
+    if (searchQuery.trim() === '') {
+      setFilteredPosts(posts);
+    } else {
+      const filtered = posts.filter(post =>
+        post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        post.content.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+      setFilteredPosts(filtered);
+    }
+  }, [searchQuery, posts]);
 
   const handleReadMoreClick = (postId) => {
     navigate(`/Post/${postId}`);
@@ -43,7 +57,7 @@ function PostList() {
 
   return (
     <div className="post-list">
-      {posts.map(post => (
+      {filteredPosts.map(post => (
         <div 
           key={post.postId} 
           className="post-card"

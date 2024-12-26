@@ -1,12 +1,13 @@
+
 // Navbar.js
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './css/Navbar.css';
 
-function Navbar() {
+function Navbar({ onSearch }) {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
-  const navigate = useNavigate(); // Thay đổi từ useHistory sang useNavigate
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     // Kiểm tra trạng thái đăng nhập từ localStorage khi component được render
@@ -22,29 +23,9 @@ function Navbar() {
     navigate('/login'); // Sử dụng navigate để chuyển hướng
   };
 
-  const handleSearch = async (e) => {
+  const handleSearch = (e) => {
     e.preventDefault();
-    if (searchQuery.trim() === '') return;
-
-    try {
-      const response = await fetch(`http://localhost:5024/api/Post/Search?query=${searchQuery}`, {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        console.log('Kết quả tìm kiếm:', data);
-        // Xử lý kết quả tìm kiếm (ví dụ: điều hướng đến trang kết quả tìm kiếm)
-        navigate('/search-results', { state: { results: data } });
-      } else {
-        console.error('Tìm kiếm thất bại');
-      }
-    } catch (error) {
-      console.error('Đã xảy ra lỗi:', error);
-    }
+    onSearch(searchQuery);
   };
 
   return (
