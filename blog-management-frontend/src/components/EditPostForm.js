@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import ReactQuill from 'react-quill';
+import ReactQuill from 'react-quill'; //sử dụng ReactQuill cho trình soạn thảo văn bản
 import 'react-quill/dist/quill.snow.css';
 import './css/EditPostForm.css';
 
