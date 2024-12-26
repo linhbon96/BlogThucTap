@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import PostList from './components/PostList';
@@ -11,7 +11,7 @@ import EditPostForm from './components/EditPostForm';
 
 function App() {
   return (
-   // <AuthProvider>
+      // <AuthProvider> loại bỏ xác thực để kiểm tra
       <Router>
         <Navbar />
         <Routes>

@@ -97,7 +97,21 @@ public async Task<ActionResult<PostDTO>> CreatePost(PostDTO postDto)
 
     return CreatedAtAction(nameof(GetPost), new { id = post.PostId }, newPostDto);
 }
+// GET: /api/Post/Search
+        [HttpGet("Search")]
+        public IActionResult Search([FromQuery] string query)
+        {
+            if (string.IsNullOrEmpty(query))
+            {
+                return BadRequest(new { message = "Query is required" });
+            }
 
+            var results = _context.Posts
+                .Where(p => p.Title.Contains(query))
+                .ToList();
+
+            return Ok(results);
+        }
         // PUT: api/Post/{id}
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdatePost(int id, PostDTO postDto)
